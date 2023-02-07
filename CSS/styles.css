@@ -2,4 +2,27 @@
   font-family: "Poppins";
 }
 
+.portal-manager-restaurant {
+  color: #344563;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.user {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #FF991F;
+}
+
+.nav-item div {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+.nav-item .fa-solid {
+  font-size: 1.7em;
+  margin: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */

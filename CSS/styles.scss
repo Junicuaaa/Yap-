@@ -1,3 +1,29 @@
 *{
     font-family: 'Poppins';
 }
+$primary-color: #344563;
+$secondary-color: #97A0B0;
+$terciary-color: #FF991F;
+.portal-manager-restaurant{
+    color: $primary-color;
+    font-size: 17px;
+    font-weight: 500;
+}
+.user{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: $terciary-color;
+}
+
+.nav-item{
+    div{
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+    }
+    .fa-solid{
+        font-size: 1.7em;
+        margin: auto;
+    }
+}
