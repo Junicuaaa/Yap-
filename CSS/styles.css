@@ -2,6 +2,11 @@
   font-family: "Poppins";
 }
 
+body {
+  padding-top: 5em;
+  padding-left: 4.5em;
+}
+
 .portal-manager-restaurant {
   color: #344563;
   font-size: 17px;
@@ -9,8 +14,8 @@
 }
 
 .user {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
   background-color: #FF991F;
 }
@@ -21,8 +26,41 @@
   border-radius: 100%;
 }
 .nav-item .fa-solid {
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin: auto;
+}
+
+.aside div {
+  width: 37px;
+  border-radius: 100%;
+}
+.aside i {
+  font-size: 1.2em;
+}
+.aside i:first-child, .aside :nth-child(3), .aside :nth-child(5) {
+  color: #344563;
+}
+
+header div {
+  color: #344563;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: bold;
+  color: #344563;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.main-slider {
+  max-height: 78vh;
+  color: #344563;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
 }
 
 /*# sourceMappingURL=styles.css.map */
